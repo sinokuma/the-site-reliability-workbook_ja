@@ -127,9 +127,6 @@ SRE(そして、願わくばDevOps)がソフトウェアエンジニアリング
 曲が演奏できてはじめて新しい曲の演奏を学ぶのです。
 より強い選手との試合に勝ってはじめて、チェスが得意になるのです。
 SREはDevOpsと似ていますが、タイトルを変更するだけでなく、結果や明確な信頼性に焦点を当てて、最終的には行動を変革すべきです。
-The Site Reliability Workbook promises to move forward from an enumeration of principles and practices by Google for Google toward more contextual actions and behaviors.
-Site reliability is for everyone, but reliability doesn’t come from reading books.
-Here’s to embracing risk and eliminating toil.
 サイト信頼性のワークブックは、GoogleのためのGoogleによる原則と実践の列挙からより文脈上の行動や振舞いへと進歩することを約束します。
 サイト信頼性は誰にとっても重要ですが、信頼性は書籍を読んでも得られません。
 ここでは、リスクを受け入れ、トイルを撲滅することです。
