@@ -33,3 +33,10 @@
 私たちはあなたたちがタンデムで章を読むことができるようにしています。
 この巻の各章では、前作をよく知っていることを前提としています。私たちの目標は、あなたが読み進めるたびに原則と実践の間を行き来することができるようにすることです。
 こうすることで、両方の巻を継続的な参考文献として使用することができます。
+
+Next, a word about ethos: We heard from some readers that while describing Google’s journey toward better operations we concentrated too much on just us.
+Some readers suggested that we were too removed from the practicalities of the world outside Google, and failed to address the interaction of our ideas with the principles of DevOps.
+That’s an entirely fair criticism that we’ve tried to take to heart in this volume.
+次に、エートス(ある時代や社会の成員や集団が持つ価値観や行動様式)についての言葉：何人かの読者からは、より良い運用を目指すGoogleの旅路を説明する一方で、私たちだけに集中しすぎていると聞きました。
+読者の中には、Google以外の世界の実用性に欠けていると示唆されていて、DevOpsの原則と[私たちのアイデアとの相互作用](https://charity.wtf/2016/06/30/devops-vs-sre-delayed-coverage-of-the-dumbest-war/)については言及していませんでした。
+それは、私たちがこの巻で深く心に刻んできた完全に公正な批判です。
