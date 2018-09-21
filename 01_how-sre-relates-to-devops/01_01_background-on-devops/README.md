@@ -29,7 +29,19 @@ DevOps哲学のどの要素も互いに容易に分離できません。これ�
 これらすべては無利益な気晴らしです。
 したがって、トラブルを防ぐよりも早急に復旧することに重点を置く方がより有益です。
 
+## 変更は段階的にすべき
+
+3番目の重要な考え方は、[変更は小さくて頻繁であるときが最も良い](https://www.azquotes.com/quote/1052920)ということです。
+変更を司る委員が月次で会議をして、メインフレーム構成を変更するために徹底的に文書化された計画について話し合う環境では、これは過激な考え方です。
+しかし、これは新しい考えではありません。
+あらゆる変更全て経験豊富な人間が検討し、効率的に検討するために1回分にまとめられていなければならないという考え方は、多かれ少なかれベストプラクティスとは逆の結果になります。
+変更は危険であることに間違いはないですが、正しい対応は可能な場合は変更を小さなサブコンポーネントに分割することです。
+次に、製品や設計、およびインフラストラクチャの変更からの定期的なアウトプットを元に変更に伴うリスクの低い安定したパイプラインを構築します。[6]
+この戦略は、より小さな変更の自動テストと問題のある変更の信頼性あるロールバックと相まって、[継続的インテグレーション(CI)](https://martinfowler.com/articles/continuousIntegration.html)や[継続的デリバリまたはデプロイ(CD)](https://puppet.com/blog/continuous-delivery-vs-continuous-deployment-what-s-diff)のような変更管理へのアプローチにつながります。
+
 ----------
 [4]これは複雑な世界であるため、[分割](https://smallbusiness.chron.com/advantages-disadvantages-collaboration-between-businesses-20642.html)やサイロなどにも[プラスの効果](https://www.fastcompany.com/1837301/5-ways-process-killing-your-productivity)がありますが、運用面では特に致命的な悪影響があるようです。
 
 [5] [https://en.wikipedia.org/wiki/Normal_Accidents](https://en.wikipedia.org/wiki/Normal_Accidents)参照。
+
+[6]リスクの高い変更や自動的な方法では検証できない変更は、制定されているべきとは言わないまでも、当然人によって検査されなければならない。
