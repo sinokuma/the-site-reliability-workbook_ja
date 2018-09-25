@@ -39,6 +39,14 @@ DevOps哲学のどの要素も互いに容易に分離できません。これ�
 次に、製品や設計、およびインフラストラクチャの変更からの定期的なアウトプットを元に変更に伴うリスクの低い安定したパイプラインを構築します。[6]
 この戦略は、より小さな変更の自動テストと問題のある変更の信頼性あるロールバックと相まって、[継続的インテグレーション(CI)](https://martinfowler.com/articles/continuousIntegration.html)や[継続的デリバリまたはデプロイ(CD)](https://puppet.com/blog/continuous-delivery-vs-continuous-deployment-what-s-diff)のような変更管理へのアプローチにつながります。
 
+## ツール類と文化は相関している
+
+ツール類はDevOpsの重要なコンポーネントです。特に正しく変更を管理することを重視しており、今では変更管理は非常に特殊なツールに依存しています。
+しかしながら、全体的にDevOps支持者は、新しい作業方法を採用することにおける成功の鍵として、ツール類よりもむしろ組織文化を非常に強調します。
+優れた文化は、故障したツール類に対処することができますが、その逆はほとんどありません。
+よく言われるように、[企業文化は戦略に勝るのです](http://bit.ly/2sokzLC)。
+運用と同様に、変更そのものは難しいことです。
+
 ----------
 [4]これは複雑な世界であるため、[分割](https://smallbusiness.chron.com/advantages-disadvantages-collaboration-between-businesses-20642.html)やサイロなどにも[プラスの効果](https://www.fastcompany.com/1837301/5-ways-process-killing-your-productivity)がありますが、運用面では特に致命的な悪影響があるようです。
 
