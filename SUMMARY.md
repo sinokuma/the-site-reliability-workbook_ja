@@ -4,7 +4,8 @@
 * [はじめに](00_preface/README.md)
 * [第1章. SREはどのようにDevOpsと関連しているか](01_how-sre-relates-to-devops/README.md)
   * [DevOpsの背景](01_how-sre-relates-to-devops/01_01_background-on-devops/README.md)
-  * [SREの背景](01_how-sre-relates-to-devops/01_02_background-on-sre/README.md)  
+  * [SREの背景](01_how-sre-relates-to-devops/01_02_background-on-sre/README.md)
+  * [両者の比較](01_how-sre-relates-to-devops/01_03_compare-and-contrast/README.md)
 
 ## Part I. Foundations
 
