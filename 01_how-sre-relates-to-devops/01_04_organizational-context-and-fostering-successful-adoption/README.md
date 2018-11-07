@@ -44,7 +44,12 @@ SREは経営陣から高いレベルのサポートを受けることもでき�
 それによって、エンジニアリングチームの「SRE流の」サポートサービスへの反対は、一般的に長続きしないことが保証されています。
 別のことをするために組織図を保有している必要はありませんが、はっきりするためには異なる慣行ののコミュニティが必要です。
 
+組織図をフォークするのか、より非公式のメカニズムを使用するのかにかかわらず、専門分野が仕事を生み出すことを認識することが重要です。
+DevOpsとSREを実践している人は、サポートとキャリア開発のための同業者コミュニティと、彼らが発揮するユニークなスキルと視点のために彼ら【18】に報酬を支払う職位を持つことから利益を得ます。
+
 ----------
 【16】[http://en.wikipedia.org/wiki/Goodhart%27s_law](http://en.wikipedia.org/wiki/Goodhart%27s_law)と、[https://skybrary.aero/bookshelf/books/2336.pdf](https://skybrary.aero/bookshelf/books/2336.pdf)参照。
 
 【17】例として、[https://codeascraft.com/2012/05/22/blameless-postmortems/](https://codeascraft.com/2012/05/22/blameless-postmortems/)参照。
+
+【18】何かしら良く発展した文化の組織においては。早期段階の企業は、これらの職務に報酬を与える方法を確立していない可能性が高い。
