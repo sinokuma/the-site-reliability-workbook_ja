@@ -9,14 +9,14 @@
   * [組織的状況と成功した採択の発展](01_how-sre-relates-to-devops/01_04_organizational-context-and-fostering-successful-adoption/README.md)
   * [結論](01_how-sre-relates-to-devops/01_05_conclusion/README.md)
 
-## Part I. Foundations
+## [パートI. 基礎](part01/README.md)
 
-* [2. Implementing SLOs](02_implementing-slos/README.md)
-* [3. SLO Engineering Case Studies](03_slo-engineering-case-studies/README.md)
-* [4. Monitoring](04_monitoring/README.md)
-* [5. Alerting on SLOs](05_alerting-on-slos/README.md)
-* [6. Eliminating Toil](06_eliminating-toil/README.md)
-* [7. Simplicity](07_simplicity/README.md)
+* [2. Implementing SLOs](part01/02_implementing-slos/README.md)
+* [3. SLO Engineering Case Studies](part01/03_slo-engineering-case-studies/README.md)
+* [4. Monitoring](part01/04_monitoring/README.md)
+* [5. Alerting on SLOs](part01/05_alerting-on-slos/README.md)
+* [6. Eliminating Toil](part01/06_eliminating-toil/README.md)
+* [7. Simplicity](part01/07_simplicity/README.md)
 
 ## Part II. Practices
 
