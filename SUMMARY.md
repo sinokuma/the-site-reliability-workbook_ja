@@ -13,6 +13,7 @@
 
 * [2. SLOを実装する](part01/02_implementing-slos/README.md)
   * [なぜSREにSLOが必要か](part01/02_implementing-slos/02_01_why-sres-need-slos/README.md)
+  * [入門](part01/02_implementing-slos/02_02_getting-started/README.md)
 * [3. SLO Engineering Case Studies](part01/03_slo-engineering-case-studies/README.md)
 * [4. Monitoring](part01/04_monitoring/README.md)
 * [5. Alerting on SLOs](part01/05_alerting-on-slos/README.md)
