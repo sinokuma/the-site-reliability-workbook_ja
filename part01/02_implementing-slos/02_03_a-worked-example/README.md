@@ -98,3 +98,29 @@ SLIは具体的で測定可能であるべきです。
 この例では可用性とレイテンシのメトリクスを使用していますが、他のすべての潜在的なSLOにも同じ原則が適用されます。
 我々のシステムが使用するメトリクスの完全なリストについては、[付録A](../../../23_appendix/examples-slo-document/README.md)を参照してください。
 我々の例ではすべて[Prometheus記法](https://prometheus.io/)を使っています。
+
+### ロードバランサメトリクス
+
+バックエンド("api"または"web")とレスポンスコード別のリクエスト総数：
+
+```Plain Text
+    http_requests_total{host="api", status="500"}`
+```
+
+累積ヒストグラムとしての合計レイテンシ。各バケットでは、その時間以下で処理されたリクエストの数をカウントします。
+
+```Plain Text
+    http_request_duration_seconds{host="api", le="0.1"}
+    http_request_duration_seconds{host="api", le="0.2"}
+    http_request_duration_seconds{host="api", le="0.4"}
+```
+
+一般的に言えば、ヒストグラムで近似値を求めるよりも遅いリクエストを数える方が良いです。
+ただし、その情報は利用できないため、Googleではモニタリングシステムが提供するヒストグラムを使用しています。
+別のアプローチとしては、ロードバランサ設定の様々遅延閾値に基づいて明示的な遅延リクエストのカウントをベースにすることもできるでしょう(例：100ミリ秒および500ミリ秒の閾値)。
+この方策はより正確な数値を提供しますが、より多くの設定が必要になるため、閾値の変更を遡及的に困難にします。
+
+```Plain Text
+    http_request_duration_seconds{host="api", le="0.1"}
+    http_request_duration_seconds{host="api", le="0.5"}
+```
