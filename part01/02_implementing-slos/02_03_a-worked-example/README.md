@@ -104,7 +104,7 @@ SLIは具体的で測定可能であるべきです。
 バックエンド("api"または"web")とレスポンスコード別のリクエスト総数：
 
 ```Plain Text
-    http_requests_total{host="api", status="500"}`
+    http_requests_total{host="api", status="500"}
 ```
 
 累積ヒストグラムとしての合計レイテンシ。各バケットでは、その時間以下で処理されたリクエストの数をカウントします。
