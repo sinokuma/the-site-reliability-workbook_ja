@@ -124,3 +124,14 @@ SLIは具体的で測定可能であるべきです。
     http_request_duration_seconds{host="api", le="0.1"}
     http_request_duration_seconds{host="api", le="0.5"}
 ```
+
+### SLIを計算する
+
+前述のメトリクスを使用して、表2-2に示すように、過去7日間分までの現在のSLIを計算できます。
+
+表2-2. 過去7日間のSLIの計算
+
+|     |     |
+| --- | --- |
+| 可用性 | `sum(rate(http_requests_total{host="api",status!~"5.."}[7d])) / sum(rate(http_requests_total{host="api"}[7d])` |
+| レイテンシ | `histogram_quantile(0.9, rate(http_request_duration_seconds_bucket[7d]))` `histogram_quantile(0.99, rate(http_request_duration_seconds_bucket[7d]))` |
