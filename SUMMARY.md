@@ -18,6 +18,7 @@
   * [適切なウィンドウを選択する](part01/02_implementing-slos/02_04_choosing-an-appropriate-time-window/README.md)
   * [ステークホルダーの合意を得る](part01/02_implementing-slos/02_05_getting-stakeholder-agreement/README.md)
   * [SLO目標の継続的改善](part01/02_implementing-slos/02_06_continuous-improvement-of-slo-targets/README.md)
+  * [SLOとエラー・バジェットで意思決定を行う](part01/02_implementing-slos/02_07_decision-making-using-slos-and-error-budgets/README.md)
 * [3. SLO Engineering Case Studies](part01/03_slo-engineering-case-studies/README.md)
 * [4. Monitoring](part01/04_monitoring/README.md)
 * [5. Alerting on SLOs](part01/05_alerting-on-slos/README.md)
