@@ -21,7 +21,7 @@
   * [SLOとエラー・バジェットで意思決定を行う](part01/02_implementing-slos/02_07_decision-making-using-slos-and-error-budgets/README.md)
   * [高度なトピック](part01/02_implementing-slos/02_08_advanced-topics/README.md)
   * [まとめ](part01/02_implementing-slos/02_09_conclusion/README.md)
-* [3. SLO Engineering Case Studies](part01/03_slo-engineering-case-studies/README.md)
+* [3. SLOエンジニアリングケーススタディ](part01/03_slo-engineering-case-studies/README.md)
 * [4. Monitoring](part01/04_monitoring/README.md)
 * [5. Alerting on SLOs](part01/05_alerting-on-slos/README.md)
 * [6. Eliminating Toil](part01/06_eliminating-toil/README.md)
