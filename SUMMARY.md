@@ -22,6 +22,7 @@
   * [高度なトピック](part01/02_implementing-slos/02_08_advanced-topics/README.md)
   * [まとめ](part01/02_implementing-slos/02_09_conclusion/README.md)
 * [3. SLOエンジニアリングケーススタディ](part01/03_slo-engineering-case-studies/README.md)
+  * [EvernoteのSLOストーリー](part01/03_slo-engineering-case-studies/03_01_evernotes-slo-story/README.md)
 * [4. Monitoring](part01/04_monitoring/README.md)
 * [5. Alerting on SLOs](part01/05_alerting-on-slos/README.md)
 * [6. Eliminating Toil](part01/06_eliminating-toil/README.md)
