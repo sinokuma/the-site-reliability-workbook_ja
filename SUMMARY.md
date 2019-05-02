@@ -26,6 +26,7 @@
   * [Home DepotのSLOストーリー](part01/03_slo-engineering-case-studies/03_02_homedepots-slo-story/README.md)
   * [まとめ](part01/03_slo-engineering-case-studies/03_03_conclusion/README.md)
 * [4. 監視](part01/04_monitoring/README.md)
+  * [監視戦略に望ましい機能](part01/04_monitoring/04_01_desirable-features-of-a-monitoring-strategy/README.md)
 * [5. Alerting on SLOs](part01/05_alerting-on-slos/README.md)
 * [6. Eliminating Toil](part01/06_eliminating-toil/README.md)
 * [7. Simplicity](part01/07_simplicity/README.md)
