@@ -59,11 +59,11 @@ Googleのログベースシステムは、細分性の高い大量のデータ�
 エラーバジェットを計算するために、各サービスは多くのサービス固有の特殊ケースを持つログ処理スクリプトを使用しました。
 1つのサービスのログエントリを処理するスクリプトの例を次に示します。
 
-If the HTTP status code was in the range (500, 599)
-AND the 'SERVER ERROR' field of the log is populated
-AND DEBUG cookie was not set as part of the request
-AND the url did not contain '/reports'
-AND the 'exception' field did not contain 'com.google.ads.PasswordException'
+If the HTTP status code was in the range (500, 599)  
+AND the 'SERVER ERROR' field of the log is populated  
+AND DEBUG cookie was not set as part of the request  
+AND the url did not contain '/reports'  
+AND the 'exception' field did not contain 'com.google.ads.PasswordException'  
 THEN increment the error counter by 1
 
 これらのスクリプトは管理が困難であり、メトリクスベースの監視システムでは利用できないデータも使用していました。
