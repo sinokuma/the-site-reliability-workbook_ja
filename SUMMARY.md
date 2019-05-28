@@ -35,15 +35,15 @@
 
 ## Part II. Practices
 
-* [8. On-Call](08_on-call/README.md)
-* [9. Incident Response](09_incident-response/README.md)
-* [10. Postmortem Culture:Learning from Failure](10_postmortem-culture-learning-from-failure/README.md)
-* [11. Managing Load](11_managing-load/README.md)
-* [12. Introducing Non-Abstract Large System Design](12_introducing-non-abstract-large-system-design/README.md)
-* [13. Data Processing Pipelines](13_data-processing-pipelines/README.md)
-* [14. Configuration Design and Best Practices](14_configuration-degign-and-best-practices/README.md)
-* [15. Configuration Specifics](15_configuration-specifics/README.md)
-* [16. Canarying Releases](16_canarying-releases/README.md)
+* [8. On-Call](part02/08_on-call/README.md)
+* [9. Incident Response](part02/09_incident-response/README.md)
+* [10. Postmortem Culture:Learning from Failure](part02/10_postmortem-culture-learning-from-failure/README.md)
+* [11. Managing Load](part02/11_managing-load/README.md)
+* [12. Introducing Non-Abstract Large System Design](part02/12_introducing-non-abstract-large-system-design/README.md)
+* [13. Data Processing Pipelines](part02/13_data-processing-pipelines/README.md)
+* [14. Configuration Design and Best Practices](part02/14_configuration-degign-and-best-practices/README.md)
+* [15. Configuration Specifics](part02/15_configuration-specifics/README.md)
+* [16. Canarying Releases](part02/16_canarying-releases/README.md)
 
 ## Part III. Processes
 
