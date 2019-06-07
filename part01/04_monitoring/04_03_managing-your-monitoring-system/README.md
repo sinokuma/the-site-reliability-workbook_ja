@@ -42,6 +42,15 @@ Googleのアプローチは時間の経過とともに進化し、単一のフ�
 10年前、[Zabbix](https://www.zabbix.com/)のような監視システムは、すべての機能を1つのコンポーネントにまとめました。
 現代の設計では通常、収集とルール評価([Prometheus server](https://prometheus.io/)のようなソリューション)、長期時系列ストレージ([InfluxDB](https://www.influxdata.com/))、アラート集約([Alertmanager](http://bit.ly/2soB22b))、およびダッシュボード([Grafana](https://grafana.com/))を分離します。
 
+この記事の執筆時点で、ソフトウェアの軽装とメトリクスの公開には、少なくとも2つの一般的なオープン・スタンダードがあります。
+
+_[statsd](https://github.com/etsy/statsd)_
+メトリック集約デーモンは当初Etsyによって記述され、現在ではほとんどのプログラミング言語に移植されています。
+
+_Prometheus_
+柔軟なデータ・モデル、メトリック・ラベルのサポート、堅牢なヒストグラム機能を備えたオープン・ソースの監視ソリューションです。
+他のシステムは現在Prometheusフォーマットを採用しており、OpenMetricsとして標準化されつつあります。
+
 ----------
 【1】例えば、promtoolを使用してPrometheus構成が構文的に正しいことを確認します。
 
