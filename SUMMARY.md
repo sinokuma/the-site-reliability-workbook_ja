@@ -7,7 +7,7 @@
   * [SREの背景](01_how-sre-relates-to-devops/01_02_background-on-sre/README.md)
   * [両者の比較](01_how-sre-relates-to-devops/01_03_compare-and-contrast/README.md)
   * [組織的状況と成功した採択の発展](01_how-sre-relates-to-devops/01_04_organizational-context-and-fostering-successful-adoption/README.md)
-  * [結論](01_how-sre-relates-to-devops/01_05_conclusion/README.md)
+  * [まとめ](01_how-sre-relates-to-devops/01_05_conclusion/README.md)
 
 ## [パートI. 基礎](part01/README.md)
 
