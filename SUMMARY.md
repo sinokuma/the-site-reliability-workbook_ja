@@ -33,6 +33,7 @@
   * [アラートロジックをテストする](part01/04_monitoring/04_05_testing-alerting-logic/README.md)
   * [まとめ](part01/04_monitoring/04_06_conclusion/README.md)
 * [5. SLOのアラート](part01/05_alerting-on-slos/README.md)
+  * [アラートに関する考慮事項](part01/05_alerting-on-slos/05_01_alerting-considerations/README.md)
 * [6. Eliminating Toil](part01/06_eliminating-toil/README.md)
 * [7. Simplicity](part01/07_simplicity/README.md)
 
