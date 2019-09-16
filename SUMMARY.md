@@ -35,6 +35,7 @@
 * [5. SLOのアラート](part01/05_alerting-on-slos/README.md)
   * [アラートに関する考慮事項](part01/05_alerting-on-slos/05_01_alerting-considerations/README.md)
   * [重要なイベントのアラート方法](part01/05_alerting-on-slos/05_02_ways-to-alert-on-significant-events/README.md)
+  * [低トラフィックサービスとエラー・バジェットのアラート](part01/05_alerting-on-slos/05_03_low-traffic-services-and-error-budget-alerting/README.md)
 * [6. Eliminating Toil](part01/06_eliminating-toil/README.md)
 * [7. Simplicity](part01/07_simplicity/README.md)
 
